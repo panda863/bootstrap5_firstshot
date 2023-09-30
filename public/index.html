@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg bg-dark py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h2 class="text-white pt-1">Bootstrap5</h2>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <button class="btn btn-primary ms-2">Join Us</button>
+          </ul>
+        </div>
+        <!--collapse navbar-collapse-->
+      </div>
+      <!--container-->
+    </nav>
+
+    <!-- hero section -->
+    <div class="hero vh-100 d-flex align-items-center" id="home">
+      <div class="container">
+        <div class="row">
+          <!-- flex対応 -->
+          <div class="col-lg-7 mx-auto text-center">
+            <!-- col=column 列のこと -->
+            <h1 class="display-4 text-white">Bootstrap5 page</h1>
+            <!-- display-4でやや大きく-->
+            <p class="text-white my-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              explicabo! Et quod voluptatum magnam tenetur explicabo esse. Totam
+              nihil iusto cum, consectetur assumenda nulla! Commodi ullam dicta
+              doloribus nihil quod.
+            </p>
+            <a href="#" class="btn btn-primary me-2">Go Page</a>
+            <a href="#" class="btn btn-outline-light">Contact</a>
+          </div>
+        </div>
+      </div>
+      <!-- container -->
+    </div>
+    <!-- hero -->
+
+    <!-- service section -->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto text-center">
+            <h6 class="text-primary">SERVICES</h6>
+            <h1>Services</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum,
+              reiciendis.
+            </p>
+          </div>
+        </div>
+        <!-- row -->
+
+        <div class="row g-4">
+          <!-- g-4のgはギャップのこと -->
+          <div class="col-lg-4 col-sm-6">
+            <div class="service card-effect">
+              <div class="iconbox">
+                <i class="bx bxs-comment-detail"></i>
+              </div>
+              <h5 class="mt-4 mb-2">service</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+                temporibus? Voluptate consequuntur accusantium tempora quia!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service card-effect">
+              <div class="iconbox">
+                <i class="bx bxs-comment-detail"></i>
+              </div>
+              <h5 class="mt-4 mb-2">service</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+                temporibus? Voluptate consequuntur accusantium tempora quia!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service card-effect">
+              <div class="iconbox">
+                <i class="bx bxs-comment-detail"></i>
+              </div>
+              <h5 class="mt-4 mb-2">service</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+                temporibus? Voluptate consequuntur accusantium tempora quia!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service card-effect">
+              <div class="iconbox">
+                <i class="bx bxs-comment-detail"></i>
+              </div>
+              <h5 class="mt-4 mb-2">service</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+                temporibus? Voluptate consequuntur accusantium tempora quia!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service card-effect">
+              <div class="iconbox">
+                <i class="bx bxs-comment-detail"></i>
+              </div>
+              <h5 class="mt-4 mb-2">service</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+                temporibus? Voluptate consequuntur accusantium tempora quia!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service card-effect">
+              <div class="iconbox">
+                <i class="bx bxs-comment-detail"></i>
+              </div>
+              <h5 class="mt-4 mb-2">service</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+                temporibus? Voluptate consequuntur accusantium tempora quia!
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!--container-->
+    </section>
+
+    <!-- Features section -->
+    <section class="row py-0 bg-light">
+      <div class="col-lg-6 col-img"></div>
+      <div class="col-lg-6">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 pt-4 offset-md-1">
+              <!-- offset-md-1で左画像と右文章の間をいい感じに空ける-->
+              <h6 class="text-primary">Why to choose us?</h6>
+              <h1>Create your Idea</h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Deserunt, ut blanditiis minima saepe voluptatem ducimus.
+              </p>
+
+              <div class="feature d-flex mt-5">
+                <div class="iconbox me-3">
+                  <i class="bx bxs-comment-detail"></i>
+                </div>
+                <div>
+                  <h5>Create</h5>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sunt, blanditiis?
+                  </p>
+                </div>
+              </div>
+              <!-- feature -->
+              <div class="feature d-flex mt-5">
+                <div class="iconbox me-3">
+                  <i class="bx bxs-comment-detail"></i>
+                </div>
+                <div>
+                  <h5>Create</h5>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sunt, blanditiis?
+                  </p>
+                </div>
+              </div>
+              <!-- feature -->
+              <div class="feature d-flex mt-5">
+                <div class="iconbox me-3">
+                  <i class="bx bxs-comment-detail"></i>
+                </div>
+                <div>
+                  <h5>Create</h5>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sunt, blanditiis?
+                  </p>
+                </div>
+              </div>
+              <!-- feature -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="Projects">
+      <div class="container-fluid">
+        <!-- fluidは画面の横幅かえても常に100%になる-->
+        <div class="row">
+          <div class="col-md-8 mx-auto text-center">
+            <h6 class="text-primary">PROJECTS</h6>
+            <h1>Recent Projects</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum,
+              reiciendis.
+            </p>
+          </div>
+        </div>
+        <!-- row -->
+
+        <div class="row g-5">
+          <div class="col-lg-4 col-sm-6">
+            <div class="project">
+              <img src="../image/mini-logo.jpeg" alt="" />
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">Project Title</h4>
+                  <h6 class="text-white">Website Design</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="project">
+              <img src="../image/mini-logo.jpeg" alt="" />
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">Project Title</h4>
+                  <h6 class="text-white">Website Design</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="project">
+              <img src="../image/mini-logo.jpeg" alt="" />
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">Project Title</h4>
+                  <h6 class="text-white">Website Design</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="project">
+              <img src="../image/mini-logo.jpeg" alt="" />
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">Project Title</h4>
+                  <h6 class="text-white">Website Design</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="project">
+              <img src="../image/mini-logo.jpeg" alt="" />
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">Project Title</h4>
+                  <h6 class="text-white">Website Design</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="project">
+              <img src="../image/mini-logo.jpeg" alt="" />
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">Project Title</h4>
+                  <h6 class="text-white">Website Design</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!--container-->
+    </section>
+
+    <!-- Team section -->
+    <section id="team" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto text-center">
+            <h6 class="text-primary">TEAM</h6>
+            <h1>Our Fair & Simple Pricing</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum,
+              reiciendis.
+            </p>
+          </div>
+        </div>
+        <!-- row -->
+
+        <div class="row g-3">
+          <div class="col-lg-3 col-sm-6 text-center">
+            <div class="team-member card-effect">
+              <img src="../image/cosmo_Logo.jpg" alt="" />
+              <h5 class="mb-0 mt-4">Sharbat Khan</h5>
+              <p>Web Developer</p>
+              <div class="social-icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 text-center">
+            <div class="team-member card-effect">
+              <img src="../image/cosmo_Logo.jpg" alt="" />
+              <h5 class="mb-0 mt-4">Sharbat Khan</h5>
+              <p>Web Developer</p>
+              <div class="social-icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 text-center">
+            <div class="team-member card-effect">
+              <img src="../image/cosmo_Logo.jpg" alt="" />
+              <h5 class="mb-0 mt-4">Sharbat Khan</h5>
+              <p>Web Developer</p>
+              <div class="social-icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 text-center">
+            <div class="team-member card-effect">
+              <img src="../image/cosmo_Logo.jpg" alt="" />
+              <h5 class="mb-0 mt-4">Sharbat Khan</h5>
+              <p>Web Developer</p>
+              <div class="social-icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!--container-->
+    </section>
+
+    <!-- blog section -->
+    <section id="blog" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto text-center">
+            <h6 class="text-primary">Blog</h6>
+            <h1>Latest News From The Blog</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum,
+              reiciendis.
+            </p>
+          </div>
+        </div>
+        <!-- row -->
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="blog-card card-effect">
+              <img src="../image/WAON_POINT.png" alt="" />
+              <h5 class="mb-0 mt-4">
+                <a href="#">Designing smart and slick Bootstrap5 Website</a>
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Tempora, laboriosam.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blog-card card-effect">
+              <img src="../image/WAON_POINT.png" alt="" />
+              <h5 class="mb-0 mt-4">
+                <a href="#">Designing smart and slick Bootstrap5 Website</a>
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Tempora, laboriosam.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blog-card card-effect">
+              <img src="../image/WAON_POINT.png" alt="" />
+              <h5 class="mb-0 mt-4">
+                <a href="#">Designing smart and slick Bootstrap5 Website</a>
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Tempora, laboriosam.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!--container-->
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto text-center">
+            <h6 class="text-primary">Contact</h6>
+            <h1>Get In Touch</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum,
+              reiciendis.
+            </p>
+          </div>
+        </div>
+        <!-- row -->
+
+        <form action="" class="row g-3 justify-content-center">
+          <div class="col-md-5">
+            <input type="text" class="form-control" placeholder="Full Name" />
+          </div>
+          <div class="col-md-5">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter E-mail"
+            />
+          </div>
+          <div class="col-md-10">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter Subject"
+            />
+          </div>
+          <div class="col-md-10">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="5"
+              class="form-control"
+              placeholder="Enter Message"
+            ></textarea>
+          </div>
+          <div class="col-md-10 d-grid">
+            <!-- d-grid で md-10 の幅に広げる -->
+            <button class="btn btn-primary">Contact</button>
+          </div>
+        </form>
+      </div>
+      <!--container-->
+    </section>
+
+    <!-- footer section -->
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="text-white">Bootstrap5</h2>
+          </div>
+          <div class="col-md-2">
+            <h5 class="text-white">Brand</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h5 class="text-white">More</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">FAQ&'s</a></li>
+              <li><a href="#">Privacy & Policy</a></li>
+              <li><a href="#">Warrantry</a></li>
+              <li><a href="#">Shipment</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="text-white">Pages</h5>
+            <ul class="list-unstyled">
+              <li>Address:2715 Ash Dr.San Jose,South Dakota 83475</li>
+              <li>E-mail:<br />shincode0712@gmail.com</li>
+              <li>Phone:111-222-333</li>
+            </ul>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container-->
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
